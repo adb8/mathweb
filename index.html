@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mathweb</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div id="welc">mathweb</div>
+        <div id="prac">practice your skills</div>
+    </div>
+    <div id="choose">
+        <div id="type">
+            <div class="head">select type</div>
+            <div class="expand">addition</div>
+            <div class="expand">multiplication</div>
+            <div class="expand">subtraction</div>
+            <div class="expand">division</div>
+            <div class="expand">exponentiation</div>
+        </div>
+        <div id="range">
+            <div class="head">select range</div>
+            <div class="expand">1 to 5</div>
+            <div class="expand">1 to 10</div>
+            <div class="expand">1 to 24</div>
+            <div class="expand">1 to 50</div>
+            <div class="expand">1 to 100</div>
+        </div>
+        <div id="quan">
+            <div class="head">select quantity</div>
+            <div class="expand">20</div>
+            <div class="expand">50</div>
+            <div class="expand">100</div>
+            <div class="expand">150</div>
+            <div class="expand">300</div>
+        </div>
+    </div>
+    <div id="begin">
+        <button>begin</button>
+    </div>
+    <audio id="click" src="sounds/click.wav"></audio>
+    <div id="game">
+        <div id="problem">problem</div>
+        <form>
+            <input type="number">
+        </form>
+        <div class="stat" id="left">questions left: 0</div>
+        <div class="stat" id="right">questions right: 0</div>
+        <div class="stat" id="wrong">questions wrong: 0</div>
+        <button id="menu">menu</button>
+    </div>
+</body>
+</html>
